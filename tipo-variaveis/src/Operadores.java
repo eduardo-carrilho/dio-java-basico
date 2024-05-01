@@ -1,25 +1,15 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "LINGUAGEM" + "JAVA";
+        //Operador ternário
+        
+        int a, b;
 
-        System.out.println(nomeCompleto);
+        a = 6;
+        b = 6;
 
-        String concatenacao = "?";
+        //Usando operador ternário
+        String resultado = a==b ? "verdadeiro" : "falso";
 
-        concatenacao = 1 + 1 + 1 + "1";
-        System.out.println(concatenacao);
-
-        concatenacao = 1 + "1" + 1 + 1;
-        System.out.println(concatenacao);
-
-        concatenacao = 1 + "1" + 1 + "1";
-        System.out.println(concatenacao);
-
-        concatenacao = "1" + 1 + 1 + 1;
-        System.out.println(concatenacao);
-
-        concatenacao = "1" + (1+1+1);
-        System.out.println(concatenacao);
-
+        System.out.println(resultado);
     }
 }
